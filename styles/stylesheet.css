@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(255, 153, 127);
+}
+section.colorHolder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.firstSwatch {
+    font-size: 4rem;
+    color: black;
+    transition: 2s ease-in;
+    &:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(208, 119, 208);
+        transition: 2s ease-out;
+    }
+  }
+
+  div.secondSwatch {
+    font-size: 4rem;
+    color: black;
+    transition: 2s ease-in;
+    &:hover {
+    
+        color:white;
+        background-color: blueviolet;
+        transition: 2s ease-out;
+    }
+  }
+
+  div.thirdSwatch {
+    font-size: 4rem;
+    color: black;
+    transition: 2s ease-in;
+    &:hover {
+        color: white;
+        background-color: blue;
+        transition: 2s ease-out;
+    }
+  }
